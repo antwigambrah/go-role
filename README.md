@@ -1,12 +1,12 @@
 
 <h1 align="center">
-    <img src="https://raw.githubusercontent.com/Permify/permify/master/assets/permify-logo.svg" alt="Permify logo" width="336px" /><br />
+    <img src="https://raw.githubusercontent.com/antwigambrah/permify/master/assets/permify-logo.svg" alt="Permify logo" width="336px" /><br />
 </h1>
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/Permify/go-role.svg)](https://pkg.go.dev/github.com/Permify/go-role)
-[![Go Report Card](https://goreportcard.com/badge/github.com/Permify/go-role)](https://goreportcard.com/report/github.com/Permify/go-role)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/Permify/go-role)
-![GitHub](https://img.shields.io/github/license/Permify/go-role)
+[![Go Reference](https://pkg.go.dev/badge/github.com/antwigambrah/go-role.svg)](https://pkg.go.dev/github.com/antwigambrah/go-role)
+[![Go Report Card](https://goreportcard.com/badge/github.com/antwigambrah/go-role)](https://goreportcard.com/report/github.com/antwigambrah/go-role)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/antwigambrah/go-role)
+![GitHub](https://img.shields.io/github/license/antwigambrah/go-role)
 [![Twitter Follow](https://img.shields.io/twitter/follow/GetPermify?style=social)](https://twitter.com/GetPermify)
 
 ## Associate users with roles and permissions
@@ -18,7 +18,7 @@ This package allows you to manage user permissions and roles in your database.
 Install
 
 ```shell
-go get github.com/Permify/go-role
+go get github.com/antwigambrah/go-role
 ```
 
 Run All Tests
@@ -45,7 +45,7 @@ go get gorm.io/driver/clickhouse
 Import permify.
 
 ```go
-import permify `github.com/Permify/go-role`
+import permify `github.com/antwigambrah/go-role`
 ```
 
 Initialize the new Permify.
@@ -386,7 +386,7 @@ You can create the relationships between the user and the role and permissions i
 ```go
 import (
     "gorm.io/gorm"
-    models `github.com/Permify/go-role/models`
+    models `github.com/antwigambrah/go-role/models`
 )
 
 type User struct {
@@ -421,7 +421,7 @@ if errors.Is(err, gorm.ErrRecordNotFound) {
 Stargazers
 -----------
 
-[![Stargazers repo roster for @Permify/go-role](https://reporoster.com/stars/Permify/go-role)](https://github.com/Permify/go-role/stargazers)
+[![Stargazers repo roster for @Permify/go-role](https://reporoster.com/stars/antwigambrah/go-role)](https://github.com/antwigambrah/go-role/stargazers)
 
 
 ## Community & Support

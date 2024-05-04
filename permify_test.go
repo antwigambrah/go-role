@@ -6,12 +6,12 @@ import (
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 
-	"github.com/Permify/go-role/collections"
-	"github.com/Permify/go-role/models"
-	"github.com/Permify/go-role/options"
-	"github.com/Permify/go-role/repositories/mocks"
-	"github.com/Permify/go-role/repositories/scopes"
-	"github.com/Permify/go-role/utils"
+	"github.com/antwigambrah/go-role/collections"
+	"github.com/antwigambrah/go-role/models"
+	"github.com/antwigambrah/go-role/options"
+	"github.com/antwigambrah/go-role/repositories/mocks"
+	"github.com/antwigambrah/go-role/repositories/scopes"
+	"github.com/antwigambrah/go-role/utils"
 )
 
 func TestPermify(t *testing.T) {

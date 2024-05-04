@@ -1,9 +1,9 @@
 
 ![permify-gorm](https://user-images.githubusercontent.com/39353278/157410086-42e02752-d5a9-4c64-bdc3-d3a203a247d7.png)
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/Permify/permify-gorm)](https://goreportcard.com/report/github.com/Permify/permify-gorm)
-![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/Permify/permify-gorm)
-![GitHub](https://img.shields.io/github/license/Permify/permify-gorm)
+[![Go Report Card](https://goreportcard.com/badge/github.com/antwigambrah/permify-gorm)](https://goreportcard.com/report/github.com/antwigambrah/permify-gorm)
+![GitHub go.mod Go version](https://img.shields.io/github/go-mod/go-version/antwigambrah/permify-gorm)
+![GitHub](https://img.shields.io/github/license/antwigambrah/permify-gorm)
 
 ## Role Based Access Control (RBAC) for your go application
 
@@ -15,7 +15,7 @@ This package allows you to manage user permissions and roles in your database.
 Install
 
 ```shell
-go get github.com/Permify/permify-gorm
+go get github.com/antwigambrah/permify-gorm
 ```
 
 Run All Tests
@@ -42,7 +42,7 @@ go get gorm.io/driver/clickhouse
 Import permify.
 
 ```go
-import permify `github.com/Permify/permify-gorm`
+import permify `github.com/antwigambrah/permify-gorm`
 ```
 
 Initialize the new Permify.
@@ -383,7 +383,7 @@ You can create the relationships between the user and the role and permissions i
 ```go
 import (
     "gorm.io/gorm"
-    models `github.com/Permify/permify-gorm/models`
+    models `github.com/antwigambrah/permify-gorm/models`
 )
 
 type User struct {
